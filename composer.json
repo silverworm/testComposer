@@ -1,0 +1,19 @@
+{
+    "name": "silverworm/test-composer",
+    "description": "leson taks",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ihor Huk",
+            "email": "lsmredfilter@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "testComposer\\": "src/"
+        }
+    }
+}
